@@ -1,0 +1,1 @@
+export function Home({onStart}:{onStart:()=>void}){return <section className="home simple-home screen"><h1>Você já prometeu que não ia usar de novo… <em>mas a vontade voltou?</em></h1><button className="primary" onClick={onStart}>COMEÇAR AGORA</button></section>}
